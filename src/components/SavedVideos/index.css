@@ -1,0 +1,10 @@
+.save-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+  padding-left: 10px;
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+  }
+}
